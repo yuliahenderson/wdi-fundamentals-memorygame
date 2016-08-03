@@ -1,4 +1,1 @@
-var  cardOne = "qeen";
-var cardTwo = "qeen";
-var cardThree = "king";
-var cardFour = "king";
+console.log("JS file is connected to HTML! Woo!")
