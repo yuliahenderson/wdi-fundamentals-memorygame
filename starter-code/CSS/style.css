@@ -32,18 +32,21 @@ nav a:hover {
 
 h1 {
 	color: teal;
+	font-size: 2em;
+	font-weight: bold;
 }
 	h2 {
 	color: gold;
+	font-size: 1.5em;
 }
 
 h1,h2 {
 	margin: 2%;
-	font-size: 1.5em;
+	
 }
 
 p {
-	font-size: 1.1em;
+	font-size: 1em;
 	font-weight: lighter;
 	letter-spacing: 1px;
 	line-height: 1.5em;
@@ -70,11 +73,15 @@ p {
 }
 
 img {
+  height: 200px;
+  width: 150px;
+}
+/*img.clearfix {
 	margin: 1% 35% 1% 35%;
 	padding: 2em;
 }
 
-img:hover {
+img.clearfix:hover {
 	background: gold;
 	border-radius: 100px;
 	cursor: pointer;
@@ -87,11 +94,11 @@ img:hover {
         clear: both;
         height: 0;
         font-size: 0;
-      }
+      }*/
 
 .name {
 	text-transform: uppercase;
-	color: #ff0000;
+	color: #000000;
 }
 
 .material-icons {
